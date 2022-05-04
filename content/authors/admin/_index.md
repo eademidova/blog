@@ -23,7 +23,7 @@ interests:
   - Высшая математика
 
 # Education to show in About widget
-Образование:
+Education:
   courses:
     - course: Бакалавриат по направлению Математика и компьютерные науки
       institution: Российский Университет Дружбы Народов
