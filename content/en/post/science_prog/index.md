@@ -1,9 +1,9 @@
 ---
-title: Языки научного программирования.
-subtitle: Пост о том, как оформлять отчёт.
+title: Scientific programming languages.
+subtitle: Post about scientific programming languages.
 
 # Summary for listings and search engines
-summary: Пост о языках научного программирования.
+summary: Post about scientific programming languages.
 
 # Link this post with a project
 projects: []
@@ -38,64 +38,64 @@ categories:
   - Demo
 ---
 
-## Введение
+## Introduction
 
-В статье мы рассмотрим следующие темы:
+In this article, we will cover the following topics:
 
-1. Язык разметки LaTeX
-2. Язык программирования Octave
-3. Язык программирования Julia
+1. LaTeX markup language
+2. Octave programming language
+3. Julia Programming Language
 
-## Язык разметки LaTeX
+## LaTeX markup language
 
- LaTeX (произносится /ˈlɑːtɛx/ или /ˈleɪtɛx/[1]) — наиболее популярный набор макрорасширений (или макропакет) системы компьютерной вёрстки TeX, который облегчает набор сложных документов.
+ LaTeX (pronounced /ˈlɑːtɛx/ or /ˈleɪtɛx/ [1]) is the most popular set of macro extensions (or macro package) for the TeX computer-aided layout system, which facilitates the typesetting of complex documents.
 
- Этот инструмент используется повсеместно для создания научных документов, написания книг, а также многих других форм публикаций. Он позволяет не только создавать красиво оформленные документы, но также дает пользователям возможность очень быстро реализовывать такие сложные элементы печатного набора, как математические выражения, таблицы, ссылки и библиографии, получая согласованную разметку по всем разделам.
+ This tool is used ubiquitously to create scientific papers, write books, and many other forms of publication. It allows not only to create beautifully designed documents, but also allows users to implement complex typesetting elements such as mathematical expressions, tables, references and bibliographies very quickly, getting consistent markup across all sections.
 
- Благодаря доступности большого числа открытых библиотек (об этом чуть позже) возможности LaTEX становятся практически безграничны. Эти библиотеки расширяют возможности пользователей еще больше, позволяя добавлять сноски, рисовать схемы и пр.
+ Thanks to the availability of a large number of open libraries (more on that later), the possibilities of LaTeX are almost limitless. These libraries extend the user experience even further, allowing you to add footnotes, draw diagrams, and more.
 
- Одна из наиболее веских причин, по которой многие используют LaTeX, заключается в отделении содержания документа от его стиля. Это означает, что после написания содержимого, можно с легкостью изменять его внешний вид. Аналогичным образом, можно создать один стиль документа и использовать его для стандартизации внешнего вида других.
+ One of the most compelling reasons many people use LaTeX is to separate the content of a document from its style. This means that after writing the content, you can easily change its appearance. Similarly, you can create one document style and use it to standardize the look of others.
 
- Это позволяет научным журналам создавать шаблоны для предлагаемых на рассмотрение материалов. Такие шаблоны имеют заданную разметку, в результате чего добавить остается лишь содержание. На деле существуют сотни подобных шаблонов, начиная с различных резюме и заканчивая презентациями слайдов.
+ This allows scientific journals to create templates for submissions. These templates have pre-defined markup, leaving only the content to be added. In fact, there are hundreds of such templates, ranging from various resumes to slide presentations.
 
-## Язык программирования Octave
+## Octave programming language
 
- MGNU Octave — свободная система для математических вычислений[1], использующая совместимый с MATLAB язык высокого уровня.
+ MGNU Octave is a free system for mathematical calculations[1] using a high-level language compatible with MATLAB.
 
- Octave представляет интерактивный командный интерфейс для решения линейных и нелинейных математических задач, а также проведения других численных экспериментов. Кроме того, Octave можно использовать для пакетной обработки. Язык Octave оперирует арифметикой вещественных и комплексных скаляров, векторов и матриц, имеет расширения для решения линейных алгебраических задач, нахождения корней систем нелинейных алгебраических уравнений, работы с полиномами, решения различных дифференциальных уравнений, интегрирования систем дифференциальных и дифференциально-алгебраических уравнений первого порядка, интегрирования функций на конечных и бесконечных интервалах. Этот список можно легко расширить, используя язык Octave (или используя динамически загружаемые модули, созданные на языках C, C++, Фортран и др.).
+ Octave provides an interactive command interface for solving linear and non-linear mathematical problems and other numerical experiments. In addition, Octave can be used for batch processing. The Octave language operates with arithmetic of real and complex scalars, vectors and matrices, has extensions for solving linear algebraic problems, finding the roots of systems of nonlinear algebraic equations, working with polynomials, solving various differential equations, integrating systems of differential and differential-algebraic equations of the first order, integrating functions on finite and infinite intervals. This list can be easily expanded using the Octave language (or using dynamically loaded modules created in C, C++, Fortran, etc.).
 
- Исследователи из Университета Мэриленда в США провели сравнительный анализ математических вычислений, используя MATLAB, Octave, SciLab и FreeMat в простом сценарии и в сложном. В первом случае решали систему линейных уравнений а в втором — конечно-разностную дискретизацию уравнения Пуассона в двухмерном пространстве. Основной вывод — GNU Octave справляется с задачами лучше остальных открытых математических пакетов, демонстрируя результат (страницы 23 и 25) сопоставимый с матлабовским.
+ Researchers at the University of Maryland in the US compared math calculations using MATLAB, Octave, SciLab, and FreeMat in a simple and complex scenario. In the first case, a system of linear equations was solved, and in the second, a finite-difference discretization of the Poisson equation in two-dimensional space. The main conclusion is that GNU Octave copes with tasks better than other open mathematical packages, demonstrating results (pages 23 and 25) comparable to those of Matlab.
 
- Научные расчеты, выполненные с использованием открытого ПО имеют дополнительный «уровень защиты», ведь при желании любой может повторить прогнать те же самые расчеты и проверить валидность результатов. Те же самые вычисления, выполненные на дорогущем ПО, частично отсекают возможность проверки результатов. Проблема на самом деле гораздо шире (английский текст) и дело не только в открытых или проприетарных математических программах. Не секрет, что научные журналы как правило не требуют от авторов предоставить данные и методику, достаточные для гарантированного повтора результатов эксперимента, проверки модели. Особенно часто этим грешат экономисты и финансисты, попросту засекречивая свои данные. Проверка расчетов и выводов среди выборки из массива статей с «засекреченными» данными дала неожиданные результаты (английский текст). Наука, как и софт, должна быть открытой, вот почему открытые математические пакеты имеют ценность для всего общества.
+ Scientific calculations performed using open source software have an additional "layer of protection", because if desired, anyone can repeat the same calculations and check the validity of the results. The same calculations performed on expensive software partially cut off the possibility of verifying the results. The problem is actually much broader (English text) and it's not just open source or proprietary math programs. It is no secret that scientific journals usually do not require authors to provide data and methods sufficient to guarantee the repetition of the results of the experiment, the verification of the model. Especially often economists and financiers sin with this, simply classifying their data. Checking the calculations and conclusions among a sample of an array of articles with "classified" data gave unexpected results (English text). Science, like software, should be open, which is why open math packages are of value to the whole society.
 
  
 
-## Язык программирования Julia.
+## Programming language Julia.
 
- Язык Julia - это кросс-платформенный компилируемый свободно распространяемый язык программирования (лицензия MIT) с динамической типизацией, который имеет ряд достоинств и недостатков. 
-B Julia pеализована возможность JIT - компиляции на основе LLVM. Компиляция Just-in-Time (JIT) позволяет обеспечить одновременно выразительность современных интерпретируемых языков и производительность таких языков, как С и Fortran. Компилятор JIT выполняет компиляцию во время первого запуска программы, извлекая из текста информацию, не указанную явно программистом, и используя эту информацию для оптимизации создаваемого машинного кода.
+ The Julia language is a dynamically typed, cross-platform, freely distributed (MIT license) compiled free programming language that has a number of advantages and disadvantages.
+Julia implements the ability to JIT - compilation based on LLVM. Just-in-Time (JIT) compilation provides both the expressiveness of modern interpreted languages ​​and the performance of languages ​​such as C and Fortran. The JIT compiler compiles the first time a program is run, extracting information from the text that is not explicitly specified by the programmer, and using this information to optimize the generated machine code.
 
- К достоинствам языка Julia можно отнести следующее: 
- - Простота интуитивно понятный язык, синтаксис которого напоминает синтаксис Python и MATLAB; 
- - быстродействие вычислений программ, написанных на Julia, сопоставимо с быстродействием программ, написанных на С или Fortran; 
- - эффективная векторизация и распараллеливание вычислений, большое число типов данных, включая рациональный и комплексные числа; 
- - проведение расчетов при отсутствии некоторых данных (есть тип дан ных missing);
- - задание точности вычислений (тип данных BigFloat, функция setprecision);
- - реализация символьных вычислений с помощью макро команд;
- - использование библиотек, написанных на С и Fortran, и обмен библиотеками с Python и R; 
- - интеграция с СУБД (PostgreSQL, MySQL, JSON).;
- - поддержка символов Unicode; 
- - использование парадигмы множественной диспетчеризации - вызов функции слабо зависит от типа параметров функции (параметрический полиморфизм); 
- - наличие хорошей встроенной математической библиотеки с функциями линейной алгебры. 
+ The advantages of the Julia language include the following:
+ - Simplicity intuitive language whose syntax resembles the syntax of Python and MATLAB;
+ - the speed of calculations of programs written in Julia is comparable to the speed of programs written in C or Fortran;
+ - efficient vectorization and parallelization of calculations, a large number of data types, including rational and complex numbers;
+ - carrying out calculations in the absence of some data (there is a missing data type);
+ - setting the accuracy of calculations (data type BigFloat, function setprecision);
+ - implementation of symbolic calculations using macro commands;
+ - use of libraries written in C and Fortran, and exchange of libraries with Python and R;
+ - integration with DBMS (PostgreSQL, MySQL, JSON);
+ - support for Unicode characters;
+ - use of the multiple dispatching paradigm - the function call weakly depends on the type of function parameters (parametric polymorphism);
+ - the presence of a good built-in mathematical library with linear algebra functions.
  
- Julia - это полноценный язык программирования, в котором есть целочисленная арифметика, операции с плавающей точкой, циклы, работа с С-подобными структурами и даже аналог оператора goto. Вместе с тем в языке существует очень удобная возможность векторизации расчетов, которая характерна для языков высокого уровня. 
- - Если говорить о недостатках языка Julia, то следует отметить , что время компиляции больших программ может быть довольно заметным (минуты); 
- - язык относительно новый , поэтому число библиотек на этом языке относительно невелико ( по сравнению с Python ); 
- - невозможно создать отдельно испролняемую программу - программы на языке Julia работают только в среде Julia.
+ Julia is a full-fledged programming language that has integer arithmetic, floating point operations, loops, working with C-like structures, and even an analogue of the goto operator. At the same time, the language has a very convenient ability to vectorize calculations, which is typical for high-level languages.
+ - If we talk about the shortcomings of the Julia language, then it should be noted that the compilation time of large programs can be quite noticeable (minutes);
+ - the language is relatively new, so the number of libraries in this language is relatively small (compared to Python);
+ - it is impossible to create a stand-alone program - Julia programs work only in the Julia environment.
  
 
-## Выводы
+## Conclusions
 
-В научном программировании используется много языков программирования и математических систем, но перечисленные в данной статье, на мой взгляд, наиболее удобные и эффективные.  
+Scientific programming uses many programming languages ​​and mathematical systems, but those listed in this article, in my opinion, are the most convenient and effective.
 
 

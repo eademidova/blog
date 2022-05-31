@@ -1,9 +1,9 @@
 ---
-title: Неделя 1
-subtitle: Первый пост о прошедшей неделе.
+title: Week 1
+subtitle: First post from last week.
 
 # Summary for listings and search engines
-summary: Первый пост о прошедшей неделе.
+summary: First post from last week.
 
 # Link this post with a project
 projects: []
@@ -30,46 +30,45 @@ image:
 
 authors:
   - admin
-  - 吳恩達
+
 
 tags:
   - Academic
-  - 开源
+
 
 categories:
   - Demo
-  - 教程
+
 ---
 
-## Введение
-За прошедшую неделю были выполнены лабораторые работы 5 и 6 на следующие темы:
+## Introduction
+Over the past week, labs 5 and 6 were completed on the following topics:
 
-1. Анализ файловой системы Linux. Команды для работы с файлами и каталогами.
-2. Поиск файлов. Перенаправление ввода-вывода. Просмотр запущенных процессов.
+1. Analysis of the Linux file system. Commands for working with files and directories.
+2. Search for files. I/O redirection. View running processes.
 
-## Лабораторная работа №5
+## Lab #5
 
-В результате лабораторной работы я ознакомилась с файловой системой Linux, её структурой, именами и содержанием каталогов.Приобрела практические навыки по применению команд для работы с файлами и каталогами, по управлению процессами (и работами), по проверке использования диска и обслуживанию файловой системы. 
+As a result of the laboratory work, I got acquainted with the Linux file system, its structure, names and contents of directories. I gained practical skills in using commands to work with files and directories, managing processes (and jobs), checking disk usage and maintaining the file system.
 
-Были выполнены следующие задачи:
+The following tasks were completed:
 
-- Выполнить примеры, приведённые в первой части описания лабораторной работы.
-- Изучить команды cp, mkdir, mv, chmod и научиться их применять
-- Узнать информацию о командах с помощью комнанды man
+- Complete the examples given in the first part of the description of the laboratory work.
+- Learn cp, mkdir, mv, chmod commands and learn how to use them
+- Find out information about commands using the man command
 
-## Лабораторная работа №6
+## Lab #6
 
-В результате выполнения лабораторной работы ознакомилась с инструментами поиска файлов и фильтрации текстовых данных. Приобретела практические навыки: по управлению процессами (и заданиями), по проверке использования диска и обслуживанию файловых систем.
+As a result of the laboratory work, I got acquainted with the tools for searching files and filtering text data. Gained practical skills: managing processes (and tasks), checking disk usage and maintaining file systems.
 
-Были выполнены следующие задачи:
+The following tasks were completed:
 
-- Использовать на практике перенаправление вывода и ввода.
-- Научиться заупскать процессы в фоновом режиме и останавливать их с помощью команды kill.
-- Изучить команды find и prep и научиться их применять
-- Узнать информацию о командах df и du и использовать их.
+- Use output and input redirection in practice.
+- Learn to start processes in the background and stop them with the kill command.
+- Learn find and prep commands and learn how to use them
+- Learn about df and du commands and use them.
 
-## Выводы
+## Conclusions
 
-За прошедшую неделю я изучила различные команды для работы и анализа файловой системы UNIX, а также приобрела практические навыки по работе с ней.
-
+Over the past week, I have learned various commands for working with and analyzing the UNIX file system, as well as gaining practical skills in working with it.
 

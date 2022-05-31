@@ -1,9 +1,9 @@
 ---
-title: Управление версиями. Git
-subtitle: Пост о том, что такое Git.
+title: Version control. Git
+subtitle: A post about what Git is.
 
 # Summary for listings and search engines
-summary: Пост о том, что такое Git.
+summary: A post about what Git is.
 
 # Link this post with a project
 projects: []
@@ -30,38 +30,36 @@ image:
 
 authors:
   - admin
-  - 吳恩達
 
 tags:
   - Academic
-  - 开源
 
 categories:
   - Demo
-  - 教程
 ---
 
-## Введение
-В статье мы рассмотрим следующие темы:
+## Introduction
 
-1. Что такое сестема управления версиями
-2. Что такое Git
-3. Как работать с Git
+In this article, we will cover the following topics:
 
-## Что такое сестема управления версиями
+1. What is a version control system
+2. What is Git
+3. How to work with Git
 
-Система управления версиями (также используется определение «система контроля версий[1]», от англ. Version Control System, VCS или Revision Control System) — программное обеспечение для облегчения работы с изменяющейся информацией. Система управления версиями позволяет хранить несколько версий одного и того же документа, при необходимости возвращаться к более ранним версиям, определять, кто и когда сделал то или иное изменение, и многое другое. 
+## What is the version control system
 
-### Что такое Git
+Version control system (also used the definition of "version control system [1]", from the English. Version Control System, VCS or Revision Control System) - software to facilitate the work with changing information. The version control system allows you to store multiple versions of the same document, revert to earlier versions if necessary, determine who made a change and when, and much more.
 
-Git — абсолютный лидер по популярности среди современных систем управления версиями. Это развитый проект с активной поддержкой и открытым исходным кодом. Система Git была изначально разработана в 2005 году Линусом Торвальдсом — создателем ядра операционной системы Linux. Git применяется для управления версиями в рамках колоссального количества проектов по разработке ПО, как коммерческих, так и с открытым исходным кодом. Система используется множеством профессиональных разработчиков программного обеспечения. Она превосходно работает под управлением различных операционных систем и может применяться со множеством интегрированных сред разработки (IDE).
+### What is Git
 
-## Как работать с Git
+Git is the absolute leader in popularity among modern version control systems. It is a mature project with active support and open source. Git was originally developed in 2005 by Linus Torvalds, creator of the Linux operating system kernel. Git is used for version control by a huge number of software development projects, both commercial and open source. The system is used by many professional software developers. It runs great on a variety of operating systems and can be used with a variety of integrated development environments (IDEs).
 
-Для того чтобы работать с Git для начала нужно зарегестрироваться на [GitHub](https://github.com/) — один из сервисов для использования системы контроля версий Git. Затем установить git, после этого стоит добавить настройки, которые вам необходимы. Например, сделать так, чтобы каждое ваше действие было отмеченно именем и почтой. Затем нужно создать удаленный репозиторий или клонировать и подключиться к нему. Изменения вносятся на локальный компьютер, а затем передаются на сайт с помощью команд git add(добавляем файлы), git commit(комментируем изменения), git push(загружаем файлы на GitHub). Чтобы загрузить изменения внесенные кем-то другим используется команда git pull.
+## How to work with Git
 
-## Выводы
+In order to work with Git, you first need to register on [GitHub] (https://github.com/) - one of the services for using the Git version control system. Then install git, after that you should add the settings that you need. For example, make sure that each of your actions is marked with a name and mail. Then you need to create a remote repository or clone and connect to it. Changes are made to the local computer, and then transferred to the site using the commands git add (add files), git commit (comment on changes), git push (upload files to GitHub). To download changes made by someone else, use the git pull command.
 
-Git - удобная и простая в использовании система контроля версий. С помощью неё можно отслеживать и фиксировать изменения в файлах, что упрощает работу над проектом с множеством людей.
+## Conclusions
+
+Git is a convenient and easy to use version control system. With it, you can track and commit changes to files, which makes it easier to work on a project with many people.
 
 

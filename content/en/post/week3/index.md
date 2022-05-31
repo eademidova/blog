@@ -1,9 +1,9 @@
 ---
-title: Неделя 3
-subtitle: Пост по третьей неделе.
+title: Week 3
+subtitle: Third week post.
 
 # Summary for listings and search engines
-summary: Пост по третьей неделе.
+summary: Third week post.
 
 # Link this post with a project
 projects: []
@@ -38,53 +38,53 @@ categories:
   - Demo
 ---
 
-## Введение
-За прошедшую неделю были выполнены лабораторые работы 9 и 10 на следующие темы:
+## Introduction
+Over the past week, labs 9 and 10 were completed on the following topics:
 
-1. Текстовой редактор emacs.
-2. Программирование в командном процессоре ОС UNIX. Командные файлы.
+1. Text editor emacs.
+2. Programming in the command processor OS UNIX. command files.
 
-## Лабораторная работа №9
+## Lab #9
 
-В результате выполнения лабораторной работы познакомилась с операционной системой Linux. Получила практические навыки работы с редактором emacs.
+As a result of laboratory work, I got acquainted with the Linux operating system. Gained practical experience with the emacs editor.
 
-Были выполнены задачи по следующим темам:
+Tasks were completed on the following topics:
 
-1. Открыть emacs.
-2. Создать файл lab07.sh.
-3. Набрать текст.
-4. Сохранить файл с помощью комбинации Ctrl-x Ctrl-s (C-x C-s).
-5. Проделать с текстом стандартные процедуры редактирования, каждое действие долж-
-но осуществляться комбинацией клавиш.
-6. Научиться использовать команды по перемещению курсора.
-7. Управление буферами.
-8. Управление окнами.
-9. Режим поиска
+1. Open emacs.
+2. Create a file lab07.sh.
+3. Type text.
+4. Save the file using the combination Ctrl-x Ctrl-s (C-x C-s).
+5. Do standard editing procedures with the text, each action must
+but be done with a key combination.
+6. Learn to use commands to move the cursor.
+7. Buffer management.
+8. Window management.
+9. Search mode
 
-## Лабораторная работа №10
+## Lab #10
 
-Изучила основы программирования в оболочке ОС UNIX/Linux. Научилась писать небольшие командные файлы.
+Studied the basics of programming in the UNIX/Linux OS shell. Learned how to write small batch files.
 
-Были решены следующие задачи:
+The following tasks were solved:
 
-1. Написать скрипт, который при запуске будет делать резервную копию самого себя (то
-есть файла, в котором содержится его исходный код) в другую директорию backup
-в вашем домашнем каталоге. При этом файл должен архивироваться одним из ар-
-хиваторов на выбор zip, bzip2 или tar. Способ использования команд архивации
-необходимо узнать, изучив справку.
-2. Написать пример командного файла, обрабатывающего любое произвольное число
-аргументов командной строки, в том числе превышающее десять. Например, скрипт
-может последовательно распечатывать значения всех переданных аргументов.
-3. Написать командный файл — аналог команды ls (без использования самой этой ко-
-манды и команды dir). Требуется, чтобы он выдавал информацию о нужном каталоге
-и выводил информацию о возможностях доступа к файлам этого каталога.
-4. Написать командный файл, который получает в качестве аргумента командной строки
-формат файла (.txt, .doc, .jpg, .pdf и т.д.) и вычисляет количество таких файлов
-в указанной директории. Путь к директории также передаётся в виде аргумента ко-
-мандной строки.
+1. Write a script that, when run, will make a backup copy of itself (then
+there is a file that contains its source code) to another backup directory
+in your home directory. In this case, the file must be archived by one of the
+chivators to choose from zip, bzip2 or tar. How to use the archive commands
+you need to find out by reading the help.
+2. Write an example of a batch file that processes any arbitrary number
+command line arguments, including more than ten. For example, script
+can sequentially print the values ​​of all passed arguments.
+3. Write a batch file - an analogue of the ls command (without using this command itself
+mandas and dir commands). It is required that it give information about the desired directory
+and displayed information about the possibilities of accessing the files of this directory.
+4. Write a batch file that receives as a command line argument
+file format (.txt, .doc, .jpg, .pdf, etc.) and calculates the number of such files
+in the specified directory. The path to the directory is also passed as an argument to
+mandline.
 
-## Выводы
+## Conclusions
 
-За прошедшую неделю я изучила и поработала с текстовым редактором Emacs. Также я научилась писать небольшие командные файлы. Поставленные задачи были интересными, я с удовольствием размышляла над ними. Этот опыт будет очень полезным для меня при будущем обучении и в целом в жизни. В целом я довольна результатами прошедшей недели, я выполнила все работы заранее и у меня не возникло никаких особенных трудностей.
+Over the past week, I have learned and worked with the Emacs text editor. I also learned how to write small batch files. The tasks were interesting, I thought about them with pleasure. This experience will be very useful for me in my future studies and in general in life. In general, I am satisfied with the results of the past week, I completed all the work in advance and I did not have any particular difficulties.
 
 

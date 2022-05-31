@@ -32,3 +32,6 @@ ru:
       - name: Контакты
         url: '#contact'
         weight: 60
+      - name: Биография
+        url: '#biography'
+        weight: 60

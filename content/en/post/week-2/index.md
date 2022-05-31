@@ -1,9 +1,9 @@
 ---
-title: Неделя 2
-subtitle: Пост по второй неделе.
+title: Week 2
+subtitle: Second week post.
 
 # Summary for listings and search engines
-summary: Пост по второй неделе.
+summary: Second week post.
 
 # Link this post with a project
 projects: []
@@ -38,36 +38,34 @@ categories:
   - Demo
 ---
 
-## Введение
-За прошедшую неделю были выполнены лабораторые работы 7 и 8 на следующие темы:
+## Introduction
+Over the past week, laboratory work 7 and 8 were completed on the following topics:
 
-1. Командная оболочка Midnight Commander.
-2. Текстовой редактор vi.
+1. Command shell Midnight Commander.
+2. Text editor vi.
 
-## Лабораторная работа №7
+## Lab #7
 
-В результате лабораторной работы я своила основные возможности командной оболочки Midnight Commander. Приобрела навыки практической работы по просмотру каталогов и файлов; ма-
-нипуляций с ними.
+As a result of the laboratory work, I have my main features of the Midnight Commander command shell. Gained practical skills in viewing directories and files; ma-
+nipulation with them.
 
-Были выполнены следующие задачи:
+The following tasks were completed:
 
-- Изучение информации о mc.
-- Практическая работа с mc.
-- Изучить горячие клавиши mcedit.
-- Научиться работать с файлами с помощью mcedit.
+- Learning information about mc.
+- Practical work with mc.
+- Learn mcedit hotkeys.
+- Learn to work with files using mcedit.
 
-## Лабораторная работа №8
+## Lab #8
 
-В результате выполнения лабораторной работы познакомилась с операционной системой Linux. Получила практические навыки работы с редактором vi, установленным по умолчанию практически во всех дистрибутивах.
+As a result of laboratory work, I got acquainted with the Linux operating system. Gained practical skills in working with the vi editor installed by default in almost all distributions.
 
-Были выполнены следующие задачи:
+The following tasks were completed:
 
-- Изучить основные функции текстового редактора vi
-- Создать файл с помощью vi
-- Отредактировать файл с помощью vi
+- Learn the basic functions of the vi text editor
+- Create a file with vi
+- Edit file with vi
 
-## Выводы
+## Conclusions
 
-За прошедшую неделю я изучила и поработала с командной обоблочкой Midnight Commander. Также я научилась работать со встроенным в практически все дистрибутивы linux текстовым редактором vi, который был непривычен в использовании, но интересен. Этот опыть будет очень полезным для меня при будущем обучении и в целом в жизни. В целом я довольна результатами прошедшей недели, я выполнила все работы заранее и у меня не возникло никаких особенных трудностей.
-
-
+Over the past week, I've been learning and working with the Midnight Commander shell. I also learned how to work with the vi text editor built into almost all linux distributions, which was unusual to use, but interesting. This experience will be very useful for me in my future studies and in general in life. In general, I am satisfied with the results of the past week, I completed all the work in advance and I did not have any particular difficulties.

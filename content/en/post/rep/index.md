@@ -1,9 +1,9 @@
 ---
-title: Оформление отчёта.
-subtitle: Пост о том, как оформлять отчёт.
+title: Report formatting.
+subtitle: Post about how to make a report.
 
 # Summary for listings and search engines
-summary: Пост о том, как оформлять отчёт.
+summary: Post about how to make a report.
 
 # Link this post with a project
 projects: []
@@ -38,61 +38,61 @@ categories:
   - Demo
 ---
 
-## Введение
-В статье мы рассмотрим следующие темы:
+## Introduction
+In this article, we will cover the following topics:
 
-1. Какая информация должна быть в отчёте?
-2. Что такое Markdown и почему его используют для оформления отчёта?
-3. Техническая часть оформления отчёта.
+1. What information should be in the report?
+2. What is Markdown and why is it used for reporting?
+3. Technical part of the report design.
 
-## Какая информация должна быть в отчёте?
+## What information should be in the report?
 
- Отчёт обычно состоит из следующих частей:
+ The report usually consists of the following parts:
 
-1. Цель работы.
+1. The purpose of the work.
 
- Здесь приводится формулировка цели лабораторной работы. Формулировки
-цели для каждой лабораторной работы приведены в методических
-указаниях.
+ Here is the statement of the purpose of the laboratory work. Wording
+goals for each laboratory work are given in the methodological
+instructions.
 
-2. Формулировка задания.
+2. Formulation of the task.
 
- Здесь приводится описание задания в соответствии с рекомендациями
-методического пособия и выданным вариантом.
+ Here is a description of the job as recommended
+methodological manual and issued version.
 
-3. Теоретическое введение. 
+3. Theoretical introduction.
 
- Здесь описываются теоретические аспекты, связанные с выполнением работы.
+ It describes the theoretical aspects related to the performance of the work.
 
-4. Выполнение работы.
+4. Doing work.
 
- Описываются проведённые действия, в качестве иллюстрации даётся ссылка на иллюстрацию
+ The actions taken are described, a link to the illustration is given as an illustration.
 
-5. Выводы.
+5. Conclusions.
 
- Здесь кратко описываются итоги проделанной работы.
+ The results of the work done are briefly described here.
 
-### Что такое markdown и почему его используют для оформления отчёта?
+### What is markdown and why is it used for reporting?
 
- Markdown — язык текстовой разметки, созданный писателем и блогером Джоном Грубером. Он предназначен для создания красиво оформленных текстов в обычных файлах формата TXT. Вам не нужны громоздкие процессоры вроде Word или Pages, чтобы создавать документы с жирным или курсивным начертанием, цитатами, ссылками и даже таблицами. Достаточно запомнить простые правила Markdown, и можно писать хоть в «Блокноте». 
+ Markdown is a text markup language created by writer and blogger John Gruber. It is designed to create beautifully designed texts in regular TXT files. You don't need bulky processors like Word or Pages to create documents with bold or italics, quotes, links, and even tables. It is enough to remember the simple rules of Markdown, and you can even write in Notepad.
 
- Этот язык разметки используется блогерами, писателями, редакторами и журналистами по всему миру. И используется он не просто так, а в связи с тем, что можно использовать определённый шаблон, что упрощает редактирование и оформление работы. Этот язык очень удобен для создания множества однотипных отчётов, так как можно взять подходящий шаблон и просто каждый раз вносить необходимые изменения, не думая при этом о размере шрифта, отступах, формировании списка литературы, списка иллюстраций, ведь всё это уже автоматически задано.
+ This markup language is used by bloggers, writers, editors and journalists around the world. And it is used for a reason, but due to the fact that you can use a certain template, which simplifies editing and designing the work. This language is very convenient for creating many reports of the same type, since you can take a suitable template and simply make the necessary changes each time without thinking about font size, indentation, the formation of a list of references, a list of illustrations, because all this is already automatically set.
 
-## Техническая часть оформления отчёта.
+## Technical part of the report design.
 
- В этой части рассмотрим процесс подготовки отчёта с помощью Markdown. 
+ In this part, we will look at the process of preparing a report using Markdown.
 
- Для начало нужно загрузить или создать подходящий вам шаблон. Затем просто в необходимые поля внести информацию. Кроме отчёта необходимо завести отдельные папки для файла с источниками литературы и с картинками. Для того чтобы вставить картинку нужно прописать к ней путь используя форму:
+ First you need to download or create a template that suits you. Then just enter the information in the required fields. In addition to the report, it is necessary to create separate folders for the file with literature sources and pictures. In order to insert an image, you need to register the path to it using the form:
 ```
- ![Название рисунка](image/placeimg_800_600_tech.jpg){ #fig:001 width=70% }
+ ![Image title](image/placeimg_800_600_tech.jpg){ #fig:001 width=70% }
 ```
- Для офрмления файла со списком литературы также существуют шаблоны, в них также в необходимые поля стоит внести информаци о названии книги/электронного истчоника, об авторе, годе издания, издателе и остальную необходимую для вас. Расставив по тексту ссылки такого вида `@tannenbaum:modern-os:ru]` и скомпилировав, у вас появится сформированный список литературы.
+ There are also templates for formatting a file with a list of references, they should also include in the required fields information about the title of the book / electronic source, about the author, year of publication, publisher and the rest necessary for you. By placing links of this type `@tannenbaum:modern-os:ru]` in the text and compiling, you will have a generated bibliography.
  
- Также Markdown имеет и другие возможности, например создание таблиц, оформление формул и кода. Всё это можно узнать, почитав информацию, например, на данном [сайте](https://www.markdownguide.org/)
+Markdown also has other features, such as creating tables, formatting formulas and code. All this can be found by reading the information, for example, on this [website] (https://www.markdownguide.org/)
  
 
-## Выводы
+## Conclusions
 
-Отчёт - это структурированное изложение целей, процесса и результатов про какой-то проделанной работе. Он помогает человеку лучше понять ваши действия и легко ориентироваться в проделанной работе. Markdown - удобный и простой в использовании легковесный язык разметки, отлично подходящий для оформления отчётов. Создание отчётов очень полезный навык, который стоит освоить и использовать. 
+A report is a structured statement of goals, process and results about some work done. It helps a person to better understand your actions and easily navigate the work done. Markdown is a convenient and easy to use lightweight markup language, great for reporting. Reporting is a very useful skill to learn and use. 
 
 
