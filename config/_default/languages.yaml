@@ -12,7 +12,6 @@ en:
 ru:
   languageCode: "ru-ru"
   contentDir: "content/ru"
-  title: Демидова Е. А.
   menu:
     main:
       - name: Обо мне
